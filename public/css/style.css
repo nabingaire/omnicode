@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00C7C7;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+header .logo img {
+    height: 100px;
+    width: 100px;
+    margin-left: 80px;
+    border-radius: 80px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 70px;
+    padding: 0;
+}
+
+header nav ul li {
+    padding-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+}
+
+header nav uli li a:hover,
+header nav ul li a:focus {
+    background-color: #1F3C88;
+    color: #ffffff;
+    padding: 3px;
+    opacity: 0.85;
+    border-radius: 15px;
+}
+
+
+/* Main Contact Section */
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: auto;
+    color: #ffffff;
+    margin: 10px 100px;
+}
+
+.contact-info-left {
+    flex: 1;
+    padding: 10px;
+}
+
+.contact-info-left h2 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.contact-info-left h2.contact-left-focus {
+    color: #1F3C88;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-info-left p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contact-info-left .info p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+
+/* Contact Form on Right */
+
+.contact-form-right {
+    flex: 1;
+    max-width: 600px;
+    padding: 40px;
+}
+
+.contact-form-right input,
+.contact-form-right textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form-right textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-form-right button {
+    background-color: #007d99;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.contact-form-right button:hover {
+    background-color: #005f73;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1);
+}
